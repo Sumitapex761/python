@@ -1,0 +1,7 @@
+sudo apt update
+sudo apt install python3
+nano hello.py
+#!/usr/bin/env python3
+print("Hello, Debian!")
+chmod +x hello.py
+./hello.py
